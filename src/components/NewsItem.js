@@ -6,7 +6,7 @@ export default class NewsItem extends Component {
 
         return (
             <div className="container my-3">
-                <div class="card" style={{ width: "18rem" }}>
+                <div class="card" >
                     <img src={!imageUrl ? "https://indiaeducationdiary.in/wp-content/uploads/2020/08/Default-Image-IED.png" : imageUrl} className="card-img-top" alt="..." />
                     <div class="card-body">
                         <h5 class="card-title">{title}</h5>
